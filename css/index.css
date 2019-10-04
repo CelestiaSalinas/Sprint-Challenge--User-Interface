@@ -84,9 +84,6 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
-  border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -244,4 +241,64 @@ nav {
 }
 
 .nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5%;
+  flex-direction: row-reverse;
+}
+
+.lambda {
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+}
+
+* {
+}
+
+.about-page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.case {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.subs {
+  margin: 40px 0 0;
+  padding: 20px;
+  width: 45%;
+  border-bottom: 1px black solid;
+}
+
+.about-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 30px;
+  padding-bottom: 40px;
+  border-bottom: 1px black solid;
+}
+
+.subs button {
+  margin-top: 20px;
+  font-size: 12px;
+  padding: 7px 20px 7px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 200px;
+  background-color: white;
+}
+
+.together {
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+img {
+  width: 315px;
+  object-fit: contain;
 }
