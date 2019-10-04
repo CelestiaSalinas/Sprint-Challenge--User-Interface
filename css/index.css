@@ -301,40 +301,57 @@ nav {
 
 .box1 {
   background-color: teal;
+  transition: all 0.3s;
 }
 
 .box2 {
   background-color: gold;
+  transition: all 0.3s;
 }
 
 .box3 {
   background-color: cadetblue;
+  transition: all 0.3s;
 }
 
 .box4 {
   background-color: coral;
+  transition: all 0.3s;
 }
 
 .box5 {
   background-color: crimson;
+  transition: all 0.3s;
 }
 
 .box6 {
   background-color: forestgreen;
+  transition: all 0.3s;
 }
 
 .box7 {
   background-color: darkorchid;
+  transition: all 0.3s;
 }
 
 .box8 {
   background-color: hotpink;
+  transition: all 0.3s;
 }
 
 .box9 {
   background-color: indigo;
+  transition: all 0.3s;
 }
 
 .box10 {
   background-color: dodgerblue;
+  transition: all 0.3s;
+}
+
+.fade {
+  opacity: 0.5;
+}
+.fade:hover {
+  opacity: 1;
 }
